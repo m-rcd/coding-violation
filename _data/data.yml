@@ -3,200 +3,245 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Claudia Beresford
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: claudia@cbctl.dev
+    phone: +44 7909 787175
+    timezone: UK Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: cbctl.dev #do not add http://
+    linkedin: claudiaberesford
+    xing:
+    github: Callisto13
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: English
+    #       level: Native
 
-        - idiom: French
-          level: Professional
+    #     - idiom: Spanish
+    #       level: Conversational
 
-        - idiom: Spanish
-          level: Professional
+    #     - idiom: French
+    #       level: Basic
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    #     - idiom: Italian
+    #       level: Basic
 
-        - item: Snowboarding
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Snowboarding
+    #       link:
+
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a Golang Software / Systems Engineer based in the UK.
+      I have spent the majority of my career in cloud computing with more than
+      two years as a maintainer of the container runtime for the OSS Cloud Foundry
+      PaaS, and one year as a maintainer of the OSS Liquid Metal project.
+      I enjoy investigating and designing new systems, and mentoring others to
+      be able to do the same. I am dedicated to sharing knowledge with thorough
+      documentation and workshops. I am often asked to step into leadership and
+      product roles, however I am more interested in IC Platform Engineer roles.
+      **I am only open to fully remote opportunities**.
+experiences:
+    title: Relevant Experience
+    info:
+      - company: Weaveworks
+        roles:
+        - title: Senior Software Engineer
+          time: Nov 2020 - Present
+          details: |
+            Returning to an IC role, I began on the OSS [eksctl](https://github.com/weaveworks/eksctl) team. I improved
+            the project’s OSS presence, management and documentation. I worked
+            closely with industry partners to scope out and develop new features.
+
+            After a year I moved to develop the [Liquid Metal](https://github.com/weaveworks-liquidmetal) project; an OSS
+            Kubernetes on bare-metal solution using MicroVMs. I investigated and
+            developed new features; experimented with various hardware and network
+            configurations (using Equinix Metal and Raspberry Pi); performed demos
+            for stakeholders and clients; wrote complete and detailed documentation;
+            designed and POC-ed potential use-cases, such as a bare-metal CI/CD
+            platform. For a time I was the sole maintainer of the project.
+
+        skills: |
+          Kubernetes, Go, linux system administration, cloud computing,  bare-metal computing, linux networking, architecture design, system design, test driven development (TDD), continuous integration (CI), continuous delivery (CD), product management, and edge computing, mentoring, leadership, OSS, Equinix Metal, Raspberry Pi
+      - company: Ori Industries
+        roles:
+        - title: Lead Software Engineer
+          time: Jan 2020 - Sept 2020
+          details: |
+            I was initially brought on to lead one team and design and build edge
+            infrastructure automation software using Kubernetes controllers.
+        - title: Product Manager
+          time: May 2020 - Sept 2020
+          details: |
+            From May I was asked to act as both technical lead and product manager
+            across three teams. I designed complex systems and led the Engineering
+            and Product departments to meet tight deadlines. I contributed to
+            designing a Product development process.
+        - title: Head of Engineering
+          time: June 2020 - Sept 2020
+          details: |
+            From June I accepted the further role of Head of Engineering, and
+            worked to improve engineering hiring processes, developed training
+            programs to help teams upskill, and coached engineers into new roles.
+        skills: |
+          Kubernetes, Go, linux system administration, cloud computing, architecture design, system design, test driven development (TDD), continuous integration (CI), continuous delivery (CD), product management, people management, edge computing, mentoring, and leadership
+      - company: Pivotal
+        roles:
+        - title: Software Engineer
+          time: Jan 2016 - Dec 2020
+          details: |
+            - Maintained database service offering for Cloud Foundry PaaS (redis, cassandra, rabbitmq)
+            - Helped design, build and maintain [OSS container runtime for CF PaaS](https://github.com/cloudfoundry/guardian)
+            - Contributed to core OSS container runtime projects runC and containerD
+            - Gained extensive experience in program, system and kernel debugging. Led initiatives to ensure knowledge was maintained in the team.
+            - Followed Agile methodologies such as pair programming, TDD and maintaining CI/CD pipelines
+            - Won 2019 CF community "Quiet Achiever" award for work on linux kernel bugs and solutions for CF container runtime
+            - Spoke at several conferences about container building
+            - Piloted a Work Experience program for CS students from minority backgrounds
+        skills: |
+          BASH, Google Cloud Platform, AWS, test driven development (TDD), cloud foundry, bosh, container technology, linux system administration, linux kernel interface programming, concourse and Go
+      - company: Cloud Credo
+        roles:
+        - title: Junior Software Engineer
+          time: Mar 2015 - Jan 2016
+          details: |
+            - Worked with various teams to build custom Cloud Foundry solutions for clients
+            - DevOps and SysAdmin heavy in Linux environments
+        skills: |
+          Skills used: bosh, cloud computing, cloud foundry, concourse, AWS, linux system administration, Ruby, BASH, test driven development (TDD), and pair programming
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: man7 Linux/UNIX System Programming Training
+        university:
+        time: 2017
+      - degree: BA Ancient History
+        university: UCL
+        time: 2011 - 2014
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Liquid Metal
+        link: "https://github.com/weaveworks-liquidmetal"
+        tagline: "A platform for creating and managing Kubernetes clusters on bare-metal."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: hammertime
+        link: "https://github.com/warehouse-13/hammertime"
+        tagline: "A gRPC client for interacting with the Liquid Metal service, flintlock."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: a-new-hope
+        link: "https://github.com/warehouse-13/a-new-hope"
+        tagline: "A neovim config built from scratch."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: cosmic
+        link: "https://github.com/warehouse-13/cosmic"
+        tagline: "Build docs for a Raspberry Pi Liquid Metal home-lab."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: soda
+        link: "https://github.com/warehouse-13/soda"
+        tagline: "An educational repo showing the effect of a gRPC client bug."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: guardian
+        link: "https://github.com/cloudfoundry/guardian"
+        tagline: "Container runtime solution for Cloud Foundry PaaS"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Golang
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Linux Sysadmin
         level: 98%
 
-      - name: Angular
+      - name: Containers/Virtualisation
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Shell Scripting
+        level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Python
         level: 60%
 
+      - name: Ruby
+        level: 60%
+
+      - name: Networking
+        level: 70%
+
+      - name: Design
+        level: 90%
+
+      - name: Kubernetes
+        level: 95%
+
+      - name: Cloud Computing
+        level: 95%
+
+      - name: GCP/AWS
+        level: 95%
+
+      - name: TDD
+        level: 99%
+
+      - name: Pair Programming
+        level: 90%
+
+      - name: Leadership/Mentoring
+        level: 100%
+
+      - name: Terraform
+        level: 80%
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Template forked from <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">sharu725/online-cv</a> <i class="fas fa-heart"></i>
