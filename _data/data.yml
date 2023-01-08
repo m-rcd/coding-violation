@@ -7,19 +7,19 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Claudia Beresford
+    name: Marianne Rachid
     tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: claudia@cbctl.dev
-    phone: +44 7909 787175
+    email: marianne@m-rcd.dev
+    phone: +44 7553027856
     timezone: UK Timezone
     citizenship:
-    website: cbctl.dev #do not add http://
-    linkedin: claudiaberesford
+    # website: m-rcd.dev #do not add http://
+    linkedin: mariannerrachid
     xing:
-    github: Callisto13
+    github: m-rcd
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -59,118 +59,118 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I am a Golang Software / Systems Engineer based in the UK.
-      I have spent the majority of my career in cloud computing with more than
-      two years as a maintainer of the container runtime for the OSS Cloud Foundry
-      PaaS, and one year as a maintainer of the OSS Liquid Metal project.
-      I enjoy investigating and designing new systems, and mentoring others to
-      be able to do the same. I am dedicated to sharing knowledge with thorough
-      documentation and workshops. I am often asked to step into leadership and
-      product roles, however I am more interested in IC Platform Engineer roles.
-      **I am only open to fully remote opportunities**.
+      A backend software engineer looking for a new challenge. In my short career, I have progressed quickly.
+      During my time at Smart Pension, I was given lots of different opportunities and challenges and I rose to meet them everytime.
+      I am confident that I can take on more demanding roles at my next company.
+      I have worked extensively in Ruby, but am also interested in moving to new languages, for example Go. In my spare time, I contribute to open source projects in Go.
 experiences:
     title: Relevant Experience
     info:
-      - company: Weaveworks
-        roles:
-        - title: Senior Software Engineer
-          time: Nov 2020 - Present
-          details: |
-            Returning to an IC role, I began on the OSS [eksctl](https://github.com/weaveworks/eksctl) team. I improved
-            the project’s OSS presence, management and documentation. I worked
-            closely with industry partners to scope out and develop new features.
+      - company: Smart Pension
+        time: Feb 2019 - present
+        description: |
+          While at Smart Pension, I have been rotated through several teams, each bringing new challenges and technologies.
+          As I have progressed in my learning, I have also worked ad-hoc to support Principles and Architects, as well as lead and design one-off initiatives for other teams and projects.
+          As a Senior, mentoring and leading by example is a large part of my role, and I am always keen to pair with colleagues and document processes so that everyone is brought up to speed.
 
-            After a year I moved to develop the [Liquid Metal](https://github.com/weaveworks-liquidmetal) project; an OSS
-            Kubernetes on bare-metal solution using MicroVMs. I investigated and
-            developed new features; experimented with various hardware and network
-            configurations (using Equinix Metal and Raspberry Pi); performed demos
-            for stakeholders and clients; wrote complete and detailed documentation;
-            designed and POC-ed potential use-cases, such as a bare-metal CI/CD
-            platform. For a time I was the sole maintainer of the project.
 
-        skills: |
-          Kubernetes, Go, linux system administration, cloud computing,  bare-metal computing, linux networking, architecture design, system design, test driven development (TDD), continuous integration (CI), continuous delivery (CD), product management, and edge computing, mentoring, leadership, OSS, Equinix Metal, Raspberry Pi
-      - company: Ori Industries
-        roles:
-        - title: Lead Software Engineer
-          time: Jan 2020 - Sept 2020
-          details: |
-            I was initially brought on to lead one team and design and build edge
-            infrastructure automation software using Kubernetes controllers.
-        - title: Product Manager
-          time: May 2020 - Sept 2020
-          details: |
-            From May I was asked to act as both technical lead and product manager
-            across three teams. I designed complex systems and led the Engineering
-            and Product departments to meet tight deadlines. I contributed to
-            designing a Product development process.
-        - title: Head of Engineering
-          time: June 2020 - Sept 2020
-          details: |
-            From June I accepted the further role of Head of Engineering, and
-            worked to improve engineering hiring processes, developed training
-            programs to help teams upskill, and coached engineers into new roles.
-        skills: |
-          Kubernetes, Go, linux system administration, cloud computing, architecture design, system design, test driven development (TDD), continuous integration (CI), continuous delivery (CD), product management, people management, edge computing, mentoring, and leadership
-      - company: Pivotal
-        roles:
-        - title: Software Engineer
-          time: Jan 2016 - Dec 2020
-          details: |
-            - Maintained database service offering for Cloud Foundry PaaS (redis, cassandra, rabbitmq)
-            - Helped design, build and maintain [OSS container runtime for CF PaaS](https://github.com/cloudfoundry/guardian)
-            - Contributed to core OSS container runtime projects runC and containerD
-            - Gained extensive experience in program, system and kernel debugging. Led initiatives to ensure knowledge was maintained in the team.
-            - Followed Agile methodologies such as pair programming, TDD and maintaining CI/CD pipelines
-            - Won 2019 CF community "Quiet Achiever" award for work on linux kernel bugs and solutions for CF container runtime
-            - Spoke at several conferences about container building
-            - Piloted a Work Experience program for CS students from minority backgrounds
-        skills: |
-          BASH, Google Cloud Platform, AWS, test driven development (TDD), cloud foundry, bosh, container technology, linux system administration, linux kernel interface programming, concourse and Go
-      - company: Cloud Credo
         roles:
         - title: Junior Software Engineer
-          time: Mar 2015 - Jan 2016
+          time: Feb 2019 - Jan 2020
           details: |
-            - Worked with various teams to build custom Cloud Foundry solutions for clients
-            - DevOps and SysAdmin heavy in Linux environments
+            **Team 1**
+
+            As part of my first team, I’ve helped build features. I did a lot of code reviews to learn from others and get myself acquainted with the new codebase. Shortly after joining, I led a new feature from design to production which involved writing up tech design documents, breaking it down into tickets and leading refinement sessions.
+
+        - title: Software Enginner
+          time: Jan 2020 - Aug 2021
+          details: |
+            **Team 2**
+
+            This team was formed by joining my first team and another team to deliver a big feature with a deadline.
+            I was responsible for prioritising the order of work, and separating essential from “could be done later”.
+             I assumed the lead on a key piece of the design and implementation, and saw it through into production.
+             My other overarching goal was to ensure we met our deadline without introducing excessive technical debt.
+
+             **Side Project 1: Architecture**
+
+             I wanted more exposure to design and architectural practices. I spoke to the head of the architectural team and offered to pick up any work for them.
+             They asked me to write an architectural document for implementing a maintenance page using cloudflare, S3 and terraform.
+             I was then invited to join the Architecture team, but declined as I had also been requested by another team which also presented an interesting learning opportunity.
+
+
+        - title: Senior Software Enginner
+          time: Aug 2021 - Present
+          details: |
+
+            **Team 3**
+
+            As part of this team, I worked on the modularisation of a major part of the monolithic application with the aim of moving it to its own service.
+            I introduced a new process to help speed up the code review process which has since been adopted by a few other teams in the company.
+            As the most senior engineer of my team, I became the primary source of knowledge.
+            I made sure to prioritise documentation to share my knowledge and help new joiners understand the product faster.
+            I worked closely with the product owner and finance teams to fix some erroneous data in the platform that could have caused a significant outage.
+
+            **Side Project 2**
+
+            I was asked to work alongside a principal engineer on a side project to automate the process of bumping a gem version.
+            I wrote a technical design suggesting a couple of approaches and added my recommendation on which approach to follow and the steps to implement it.
+
+
+            **Side Project 3**
+
+            I worked with a principal engineer to automate the process of creating and sharing anonymised databases to developers.
+            3 weeks into the project, based on research that I undertook, we decided that the project was not cost-effective and therefore recommended that it be terminated.
+
+
+            **Side Project 4**
+
+            I am currently working on another side project, as requested by a principal engineer, to create a tool that would help make a step of the code review process easier for engineers.
+
+
         skills: |
-          Skills used: bosh, cloud computing, cloud foundry, concourse, AWS, linux system administration, Ruby, BASH, test driven development (TDD), and pair programming
+          Ruby, RSpec, SQL, Git, AWS, heroku, architecture design, test driven development(TDD), continuous integration(CI), continuous delivery(CD), agile practices, pair programming, mentoring,
+          Docker, Makefile, Javascript, BASH, writing architecture documents, cloudflare, S3 and Terraform, interviewing.
+
 education:
     title: Education
     info:
-      - degree: man7 Linux/UNIX System Programming Training
-        university:
-        time: 2017
-      - degree: BA Ancient History
+      - degree: Software Engineering
+        university: Makers Academy
+        time: 2018
+      - degree: MSc Drug Discovery & Pharma Management
         university: UCL
-        time: 2011 - 2014
-projects:
-    title: Projects
-    assignments:
-      - title: Liquid Metal
-        link: "https://github.com/weaveworks-liquidmetal"
-        tagline: "A platform for creating and managing Kubernetes clusters on bare-metal."
+        time: 2016
+      - degree: BSc Pharmacy
+        university: Lebanese American University (LAU)
+        time: 2009-2015
 
-      - title: hammertime
-        link: "https://github.com/warehouse-13/hammertime"
-        tagline: "A gRPC client for interacting with the Liquid Metal service, flintlock."
+# projects:
+#     title: Projects
+#     assignments:
+#       - title: Liquid Metal
+#         link: "https://github.com/weaveworks-liquidmetal"
+#         tagline: "A platform for creating and managing Kubernetes clusters on bare-metal."
 
-      - title: a-new-hope
-        link: "https://github.com/warehouse-13/a-new-hope"
-        tagline: "A neovim config built from scratch."
+#       - title: hammertime
+#         link: "https://github.com/warehouse-13/hammertime"
+#         tagline: "A gRPC client for interacting with the Liquid Metal service, flintlock."
 
-      - title: cosmic
-        link: "https://github.com/warehouse-13/cosmic"
-        tagline: "Build docs for a Raspberry Pi Liquid Metal home-lab."
+#       - title: a-new-hope
+#         link: "https://github.com/warehouse-13/a-new-hope"
+#         tagline: "A neovim config built from scratch."
 
-      - title: soda
-        link: "https://github.com/warehouse-13/soda"
-        tagline: "An educational repo showing the effect of a gRPC client bug."
+#       - title: cosmic
+#         link: "https://github.com/warehouse-13/cosmic"
+#         tagline: "Build docs for a Raspberry Pi Liquid Metal home-lab."
 
-      - title: guardian
-        link: "https://github.com/cloudfoundry/guardian"
-        tagline: "Container runtime solution for Cloud Foundry PaaS"
+#       - title: soda
+#         link: "https://github.com/warehouse-13/soda"
+#         tagline: "An educational repo showing the effect of a gRPC client bug."
+
+#       - title: guardian
+#         link: "https://github.com/cloudfoundry/guardian"
+#         tagline: "Container runtime solution for Cloud Foundry PaaS"
 
 # publications:
 #     title: Publications
@@ -198,38 +198,11 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Golang
-        level: 98%
-
-      - name: Linux Sysadmin
-        level: 98%
-
-      - name: Containers/Virtualisation
-        level: 98%
-
-      - name: Shell Scripting
-        level: 100%
-
-      - name: Python
-        level: 60%
-
       - name: Ruby
-        level: 60%
-
-      - name: Networking
-        level: 70%
-
-      - name: Design
         level: 90%
 
-      - name: Kubernetes
-        level: 95%
-
-      - name: Cloud Computing
-        level: 95%
-
-      - name: GCP/AWS
-        level: 95%
+      - name: RSpec
+        level: 90%
 
       - name: TDD
         level: 99%
@@ -237,11 +210,11 @@ skills:
       - name: Pair Programming
         level: 90%
 
-      - name: Leadership/Mentoring
+      - name: Mentoring
         level: 100%
 
-      - name: Terraform
-        level: 80%
+      - name: Go
+        level: 30%
 
 footer: >
     Template forked from <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">sharu725/online-cv</a> <i class="fas fa-heart"></i>

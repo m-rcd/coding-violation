@@ -21,6 +21,14 @@
         {% endif %}
       </div><!--//upper-row-->
 
+      <div class="upper-row">
+        {% if experience.description %}
+          <div class="description">{{ experience.description }}</div>
+        {% endif %}
+      </br>
+      </div><!--//upper-row-->
+
+
       {% for role in experience.roles %}
       <div class="upper-row">
         <h3 class="job-title">{{ role.title }}</h3>
