@@ -70,9 +70,9 @@ experiences:
       - company: Boxt 
         time: May 2023 - present
       
-      roles:
-      - title: Software Enginner
-        description: |
+        roles:
+        - title: Software Enginner
+          description: |
            As part of a team comprised of backend, frontend, mobile engineers and design, I worked on implementing push notifications, solving bugs. I helped another team to migrate from Chewy to Searchkick.
            I also picked up a couple of small front end tickets in order to gain a new skill and help my team migrate legacy rails code to next.js.
 
@@ -91,7 +91,7 @@ experiences:
             **Team 1**
 
           As part of my first team, I helped build features. I did a lot of code reviews to learn from others and get myself acquainted with the new codebase. Shortly after joining, I led a new feature from design to production which involved writing up tech design documents, breaking it down into tickets and leading refinement sessions.
-          
+
         - title: Software Enginner
           time: Jan 2020 - Aug 2021
           details: |
