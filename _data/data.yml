@@ -72,7 +72,7 @@ experiences:
       
         roles:
         - title: Software Enginner
-          description: |
+          details: |
            As part of a team comprised of backend, frontend, mobile engineers and design, I worked on implementing push notifications, solving bugs. I helped another team to migrate from Chewy to Searchkick.
            I also picked up a couple of small front end tickets in order to gain a new skill and help my team migrate legacy rails code to next.js.
 
