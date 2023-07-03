@@ -60,14 +60,21 @@ career-profile:
     title: Profile
     summary: |
       A backend software engineer looking for a new challenge. In my short career, I have progressed quickly.
-      During my time at Smart Pension, I was given lots of different opportunities and challenges and I rose to meet them everytime.
+      During my time at Smart Pension, I was given lots of different opportunities and challenges and I rose to meet them everytime. In my current role, I started learning front end in order to get more skills.
       I am confident that I can take on more demanding roles at my next company.
       I have worked extensively in Ruby, but am also interested in moving to new languages, for example Go. In my spare time, I contribute to open source projects in Go.
 experiences:
     title: Relevant Experience
     info:
+      - company: Boxt 
+        time: May 2023 - present
+        description: |
+          • As part of a team comprised of  backend, frontend, mobile engineers and design, I worked on implementing push notifications, solving bugs.
+          • I helped another team to migrate from Chewy to Searchkick.
+          • I also picked up a couple of small front end tickets in order to gain a new skill and help my team migrating legacy rails code to next.js.
+
       - company: Smart Pension
-        time: Feb 2019 - present
+        time: Feb 2019 - May 2023
         description: |
           While at Smart Pension, I have been rotated through several teams, each bringing new challenges and technologies.
           As I have progressed in my learning, I have also worked ad-hoc to support Principles and Architects, as well as lead and design one-off initiatives for other teams and projects.
