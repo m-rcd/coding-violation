@@ -63,7 +63,7 @@ career-profile:
       During my time at Smart Pension, I was given lots of different opportunities and challenges and I rose to meet them everytime. 
       I am confident that I can take on more demanding roles at my next company.
       I have worked extensively in Ruby, but am also interested in moving to new languages, for example Go. In my spare time, I contribute to open source projects in Go.
-      I am looking for a new role before my probation at BOXT ends in late august.
+      I am looking for a new role before my probation at BOXT ends in late August.
 experiences:
     title: Relevant Experience
     info:
@@ -79,9 +79,9 @@ experiences:
       - company: Smart Pension
         time: Feb 2019 - May 2023
         description: |
-          While at Smart Pension, I was rotated through several teams, each bringing new challenges and technologies.
-          As I have progressed in my learning, I have also worked ad-hoc to support Principles and Architects, as well as lead and design one-off initiatives for other teams and projects.
-          As a Senior, mentoring and leading by example is a large part of my role, and I was always keen to pair with colleagues and document processes so that everyone is brought up to speed.
+          While at Smart Pension, I was rotated through several teams, each bringing new challenges and technologies. 
+          As I progressed in my learning, I also worked ad-hoc to support Principles and Architects, as well as lead and design one-off initiatives for other teams and projects. 
+          As a Senior, mentoring and leading by example is a large part of my role, and I was always keen to pair with colleagues and document processes so that everyone was brought up to speed.
 
 
         roles:
@@ -90,8 +90,8 @@ experiences:
           details: |
             **Team 1**
 
-            As part of my first team, I’ve helped build features. I did a lot of code reviews to learn from others and get myself acquainted with the new codebase. Shortly after joining, I led a new feature from design to production which involved writing up tech design documents, breaking it down into tickets and leading refinement sessions.
-
+          As part of my first team, I helped build features. I did a lot of code reviews to learn from others and get myself acquainted with the new codebase. Shortly after joining, I led a new feature from design to production which involved writing up tech design documents, breaking it down into tickets and leading refinement sessions.
+          
         - title: Software Enginner
           time: Jan 2020 - Aug 2021
           details: |
