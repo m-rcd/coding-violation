@@ -59,7 +59,11 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I'm a backend software engineer looking for a new challenge before my probation ends in late August.
+      A backend software engineer looking for a new challenge. In my short career, I have progressed quickly.
+      During my time at Smart Pension, I was given lots of different opportunities and challenges and I rose to meet them everytime. 
+      I am confident that I can take on more demanding roles at my next company.
+      I have worked extensively in Ruby, but am also interested in moving to new languages, for example Go. In my spare time, I contribute to open source projects in Go.
+      I am looking for a new role before my probation at BOXT ends in late august.
 experiences:
     title: Relevant Experience
     info:
@@ -67,14 +71,14 @@ experiences:
         time: May 2023 - present
         description: |
            As part of a team comprised of backend, frontend, mobile engineers and design, I worked on implementing push notifications, solving bugs. I helped another team to migrate from Chewy to Searchkick.
-           I also picked up a couple of small front end tickets in order to gain a new skill and help my team migrating legacy rails code to next.js.
+           I also picked up a couple of small front end tickets in order to gain a new skill and help my team migrate legacy rails code to next.js.
 
       - company: Smart Pension
         time: Feb 2019 - May 2023
         description: |
-          While at Smart Pension, I have been rotated through several teams, each bringing new challenges and technologies.
+          While at Smart Pension, I was rotated through several teams, each bringing new challenges and technologies.
           As I have progressed in my learning, I have also worked ad-hoc to support Principles and Architects, as well as lead and design one-off initiatives for other teams and projects.
-          As a Senior, mentoring and leading by example is a large part of my role, and I am always keen to pair with colleagues and document processes so that everyone is brought up to speed.
+          As a Senior, mentoring and leading by example is a large part of my role, and I was always keen to pair with colleagues and document processes so that everyone is brought up to speed.
 
 
         roles:
@@ -128,7 +132,7 @@ experiences:
 
             **Side Project 4**
 
-            I am currently working on another side project, as requested by a principal engineer, to create a tool that would help make a step of the code review process easier for engineers.
+            I worked on another side project, as requested by a principal engineer, to create a tool that would help make a step of the code review process easier for engineers.
 
 
         skills: |
