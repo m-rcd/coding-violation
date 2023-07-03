@@ -68,6 +68,7 @@ experiences:
     title: Relevant Experience
     info:
       - company: Boxt 
+      - title: Software Enginner
         time: May 2023 - present
         description: |
            As part of a team comprised of backend, frontend, mobile engineers and design, I worked on implementing push notifications, solving bugs. I helped another team to migrate from Chewy to Searchkick.
