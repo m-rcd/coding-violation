@@ -14,7 +14,8 @@ theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
-google_analytics: G-T7L7Q2124V
+google-
+analytics: G-T7L7Q2124V
 
 # Sass/SCSS
 sass:
